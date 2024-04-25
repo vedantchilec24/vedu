@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Sports Website - Login</title>
+    <link rel="stylesheet" href="styles.css">
+     <style>
+       body{
+        background-image: url(A16ilogin2.webp);
+        background-size: 100%;
+       } 
+     </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to College Sports</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-form">
+            <h2>Login</h2>
+            <form action="login_process.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 College Sports. All rights reserved.</p>
+    </footer>
+</body>
+</html>

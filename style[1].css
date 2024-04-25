@@ -1,0 +1,219 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(A16image.jpg);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.latest-news {
+    margin-top: 50px;
+}
+
+.latest-news h2 {
+    font-size: 2em;
+}
+
+.latest-news article {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/* Additional Styling for Gallery Page */
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    font-size: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.grid-item h3 {
+    margin-top: 10px;
+}
+
+/* Ensure consistent styling across all pages */
+/* You can copy the rest of the CSS from the previous example (styles.css) */
+/* Additional Styling for Login Page */
+.login-form {
+    padding: 20px;
+}
+
+.login-form h2 {
+    font-size: 2em;
+}
+
+.login-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+/* Ensure consistent styling across all pages */
+/* You can copy the rest of the CSS from the previous example (styles.css) */
+/* Additional Styling for Contact Us Page */
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Ensure consistent styling across all pages */
+/* You can copy the rest of the CSS from the previous example (styles.css) */
+/* Additional Styling for Events Page */
+.events {
+    padding: 20px;
+}
+
+.events h2 {
+    font-size: 2em;
+}
+
+.event {
+    margin-bottom: 40px;
+}
+
+.event h3 {
+    font-size: 1.5em;
+}
+
+.event p {
+    margin-bottom: 10px;
+}
+
+/* Ensure consistent styling across all pages */
+/* You can copy the rest of the CSS from the previous example (styles.css) */
